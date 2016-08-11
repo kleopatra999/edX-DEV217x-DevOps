@@ -32,10 +32,10 @@ Active Azure Subscription
 2. Simply click the Deploy to Azure button below and follow the wizard to deploy the two machines. You will need
     to log in to the Azure Portal.
                                                                      
-	<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoft%2FPartsUnlimitedMRP%2Fmaster%2Fdocs%2FHOL_Deploying-Using-Chef%2Fenv%2FChefPartsUnlimitedMRP.json" target="_blank">
+	<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FedX-DEV217x-DevOps%2Fmaster%2Fdocs%2FHOL_Deploying-Using-Chef%2Fenv%2FChefPartsUnlimitedMRP.json" target="_blank">
 		<img src="http://azuredeploy.net/deploybutton.png"/>
 	</a>
-	<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoft%2FPartsUnlimitedMRP%2Fmaster%2Fdocs%2FHOL_Deploying-Using-Chef%2Fenv%2FChefPartsUnlimitedMRP.json" target="_blank">
+	<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FedX-DEV217x-DevOps%2Fmaster%2Fdocs%2FHOL_Deploying-Using-Chef%2Fenv%2FChefPartsUnlimitedMRP.json" target="_blank">
 		<img src="http://armviz.io/visualizebutton.png"/>
 	</a>
 
@@ -183,7 +183,7 @@ In this exercise, you will create a cookbook to automate the installation of the
 	
 		git checkout master
 
-5.  Copy the full contents of the recipe from here: [https://raw.githubusercontent.com/Microsoft/PartsUnlimitedMRP/master/docs/HOL_Deploying-Using-Chef/final/default.rb](https://raw.githubusercontent.com/Microsoft/PartsUnlimitedMRP/master/docs/HOL_Deploying-Using-Chef/final/default.rb).
+5.  Copy the full contents of the recipe from here: [https://raw.githubusercontent.com/MicrosoftLearning/edX-DEV217x-DevOps/master/docs/HOL_Deploying-Using-Chef/final/default.rb](https://raw.githubusercontent.com/MicrosoftLearning/edX-DEV217x-DevOps/master/docs/HOL_Deploying-Using-Chef/final/default.rb).
 
 6. Open chef-repo/cookbooks/mrpapp/recipes/default.rb for edit.
 
@@ -252,7 +252,7 @@ In this exercise, you will create a cookbook to automate the installation of the
 
     	↪	# Load MongoDB data 
     	↪	remote_file 'mongodb_data' do
-    	↪		source 'https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/deploy/MongoRecords.js'
+    	↪		source 'https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/deploy/MongoRecords.js'
     	↪		path './MongoRecords.js'
     	↪		action :create
     	↪		notifies :run, "script[mongodb_import]", :immediately
@@ -283,17 +283,7 @@ In this exercise, you will create a cookbook to automate the installation of the
 
     	↪	# Install the MRP app, restart the Tomcat service if necessary
     	↪	remote_file 'mrp_app' do
-    	↪		source 'https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/builds/mrp.war'
-    	↪		action :create
-    	↪		notifies :restart, "service[tomcat7]", :immediately
-    	↪	end
-
-	Now we can download the MRP application and start running it in Tomcat. If we get a new version, it signals the Tomcat service to restart.
-
-   		↪	# Install the MRP app, restart the Tomcat service if necessary
-    	↪	remote_file 'mrp_app' do
-    	↪		source 'https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/builds/mrp.war'
-    	↪		path '/var/lib/tomcat7/webapps/mrp.war'
+    	↪		source 'https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/builds/mrp.war'
     	↪		action :create
     	↪		notifies :restart, "service[tomcat7]", :immediately
     	↪	end
@@ -308,7 +298,7 @@ In this exercise, you will create a cookbook to automate the installation of the
 	Finally, we can make sure the ordering service is running. This uses a combination of remote_file and script resources to check if the ordering service needs to be killed and restarted, or if it's not running at all when it should be. The end result of this is that the ordering service will always be up and running.
 
     	↪	remote_file 'ordering_service' do
-    	↪		source 'https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/builds/ordering-service-0.1.0.jar'
+    	↪		source 'https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/builds/ordering-service-0.1.0.jar'
     	↪		path './ordering-service-0.1.0.jar'
     	↪		action :create
     	↪		notifies :run, "script[stop_ordering_service]", :immediately

@@ -150,8 +150,8 @@ Next steps
 
 In this lab, you learned how to create a Continuous Integration build that runs when new commits are pushed to the master branch. This allows you to get feedback as to whether your changes made breaking syntax changes, or if they broke one or more automated tests, or if your changes are okay. Try these labs out for next steps:
 
--   [HOL Parts Unlimited MRP Continuous Deployment ](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Continuous-Deployment)
+-   [HOL Parts Unlimited MRP Continuous Deployment ](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Continuous-Deployment)
 
--   [HOL Parts Unlimited MRP Automated Testing](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Automated-Testing)
+-   [HOL Parts Unlimited MRP Automated Testing](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Automated-Testing)
 
--   [HOL Parts Unlimited MRP Application Performance Monitoring](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Application-Performance-Monitoring)
+-   [HOL Parts Unlimited MRP Application Performance Monitoring](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Application-Performance-Monitoring)

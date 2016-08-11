@@ -6,9 +6,9 @@ In this lab, you will learn how to perform load testing against an endpoint for 
 
 **Pre-requisites**
 
-- The PartsUnlimitedMRP Linux Azure virtual machine set up and deployed with endpoint 9080 open (see [link](https://github.com/Microsoft/PartsUnlimitedMRP/blob/master/docs/Build-MRP-App-Linux.md))
+- The PartsUnlimitedMRP Linux Azure virtual machine set up and deployed with endpoint 9080 open (see [link](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/blob/master/docs/Build-MRP-App-Linux.md))
 
-- Visual Studio Ultimate license
+- Visual Studio Enterprise license
 
 **Tasks**
 
@@ -156,8 +156,8 @@ In this lab, you learned how to perform load testing against an endpoint for the
 Next steps
 ----------
 
--   [HOL Parts Unlimited MRP Continuous Integration ](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Continuous-Integration)
+-   [HOL Parts Unlimited MRP Continuous Integration ](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Continuous-Integration)
 
--   [HOL Parts Unlimited MRP Automated Testing](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Automated-Testing)
+-   [HOL Parts Unlimited MRP Automated Testing](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Automated-Testing)
 
--   [HOL Parts Unlimited MRP Application Performance Monitoring](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Application-Performance-Monitoring)
+-   [HOL Parts Unlimited MRP Application Performance Monitoring](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Application-Performance-Monitoring)

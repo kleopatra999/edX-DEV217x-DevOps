@@ -11,7 +11,7 @@ class configuremongodb {
   class { 'mongodb': }->
 
   wget::fetch { 'mongorecords':
-    source => 'https://raw.githubusercontent.com/Microsoft/PartsUnlimitedMRP/master/deploy/MongoRecords.js',
+    source => 'https://raw.githubusercontent.com/MicrosoftLearning/edX-DEV217x-DevOps/master/deploy/MongoRecords.js',
     destination => '/tmp/MongoRecords.js',
     timeout => 0,
   }->
@@ -61,7 +61,7 @@ class deploywar {
 
   tomcat::war { 'mrp.war':
     catalina_base => '/var/lib/tomcat7',
-    war_source => 'https://raw.githubusercontent.com/Microsoft/PartsUnlimitedMRP/master/builds/mrp.war',
+    war_source => 'https://raw.githubusercontent.com/MicrosoftLearning/edX-DEV217x-DevOps/master/builds/mrp.war',
   }
 }
 
@@ -74,7 +74,7 @@ class orderingservice {
     ensure => 'directory'
   }->
   wget::fetch { 'orderingsvc':
-    source => 'https://raw.githubusercontent.com/Microsoft/PartsUnlimitedMRP/master/builds/ordering-service-0.1.0.jar',
+    source => 'https://raw.githubusercontent.com/MicrosoftLearning/edX-DEV217x-DevOps/master/builds/ordering-service-0.1.0.jar',
     destination => '/opt/mrp/ordering-service.jar',
     cache_dir => '/var/cache/wget',
     timeout => 0,

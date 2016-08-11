@@ -6,7 +6,7 @@ In this lab, you will learn how to create new JUnit tests to the Parts Unlimited
 
 - An active Visual Studio Team Services account
 - Eclipse ([http://www.eclipse.org/](http://www.eclipse.org/ "http://www.eclipse.org/"))
-- Completion of the [Continuous Integration HOL](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Continuous-Integration)
+- Completion of the [Continuous Integration HOL](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Continuous-Integration)
 
 
 ###Tasks Overview###
@@ -216,8 +216,8 @@ Next steps
 
 In this lab, you set up your development environment to work with Gradle, you added a new JUnit test to the Parts Unlimited MRP App, and you were able to see that reflected in the automated build process.
 
--   [HOL Parts Unlimited MRP Continuous Deployment](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Continuous-Deployment)
+-   [HOL Parts Unlimited MRP Continuous Deployment](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Continuous-Deployment)
 
--   [HOL Parts Unlimited MRP Automated Testing](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Automated-Testing)
+-   [HOL Parts Unlimited MRP Automated Testing](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Automated-Testing)
 
--   [HOL Parts Unlimited MRP Application Performance Monitoring](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Application-Performance-Monitoring)
+-   [HOL Parts Unlimited MRP Application Performance Monitoring](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Application-Performance-Monitoring)

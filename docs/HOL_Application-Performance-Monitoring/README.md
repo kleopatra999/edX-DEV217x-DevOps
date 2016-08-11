@@ -8,11 +8,11 @@ In this lab, you will learn how to set up Application Insights telemetry, and dr
 
 - Code Editor (VSCode, Eclipse, etc.)
 
-- PartsUnlimitedMRP Linux Azure virtual machine set up and deployed with endpoint 9080 open (see [link](https://github.com/Microsoft/PartsUnlimitedMRP/blob/master/docs/Build-MRP-App-Linux.md))
+- PartsUnlimitedMRP Linux Azure virtual machine set up and deployed with endpoint 9080 open (see [link](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/blob/master/docs/Build-MRP-App-Linux.md))
 
 - Application Insights created in the same Azure Resource Group as the PartsUnlimitedMRP virtual machine (see [link](https://azure.microsoft.com/en-us/documentation/articles/app-insights-create-new-resource/))
 
-- Continuous Integration build with Gradle to the PartsUnlimitedMRP virtual machine (see [link](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Continuous-Deployment))
+- Continuous Integration build with Gradle to the PartsUnlimitedMRP virtual machine (see [link](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Continuous-Deployment))
 
 **Tasks Overview**
 
