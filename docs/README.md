@@ -1,14 +1,15 @@
+#Hands-on labs for "Accelerate Software Delivery Using DevOps"
 
+This repository is intended to supplement the "Accelerate Software Delivery Using DevOps" edX course.
 
-You may use following order for walking through the labs:
+The labs are broken down into appropriate module folders for each week:
 
-1. [Continuous Integration](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Continuous-Integration)
-2. [Continuous Deployment](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Continuous-Deployment)
-3. [Automated Testing](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Automated-Testing)
-4. [Application Performance Monitoring](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Application-Performance-Monitoring)
-5. [Autoscaling & Load Testing](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Autoscaling-Load-Testing)
+Module 1 Lab - [Set up PartsUnlimitedMRP](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module1Labs/HOL_Set-Up-MRP)
 
-There are also 2 labs that walk through the steps to deploy the MRP application using Chef and Puppet. These are independent from the above labs, but you are free to integrate them yourself to the above labs if you like.
+Module 2 Labs - [Deploy using Chef](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module2Labs/HOL_Deploying-Using-Chef), [Deploy using Puppet](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module2Labs/HOL_Deploying-Using-Puppet)
 
-- [Provisioning & Deploying the MRP app using Chef](https://github.com/OguzPastirmaci/PartsUnlimitedMRP/tree/master/docs/HOL_Deploying-Using-Chef)
-- [Provisioning & Deploying the MRP app using Puppet](https://github.com/OguzPastirmaci/PartsUnlimitedMRP/tree/master/docs/HOL_Deploying-Using-Puppet)
+Module 3 Lab - [Automated testing with PartsUnlimitedMRP](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module3Labs/HOL_Automated-Testing)
+
+Module 4 Labs - [Continuous Integration](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module4Labs/HOL_Continuous-Integration), [Continuous Deployment](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module4Labs/HOL_Continuous-Deployment), [Continuous Deployment using a Custom Agent (optional)](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module4Labs/HOL_Continuous-Deployment-Using-Custom-Agent)
+
+Module 5 Labs - [Application Performance Monitoring](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module5Labs/HOL_Application-Performance-Monitoring), [Autoscaling and Load Testing (optional)](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module5Labs/HOL_Autoscaling-Load-Testing)

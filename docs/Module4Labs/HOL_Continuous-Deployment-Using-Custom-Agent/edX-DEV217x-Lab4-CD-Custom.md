@@ -2,7 +2,7 @@
 
 In this lab, you will learn how to deploy the Parts Unlimited MRP App in an automated fashion onto a local agent on a Linux VM. After this lab, you will have a working, automated build in Visual Studio Team Services that will build, test, and deploy the Parts Unlimited MRP app to a Virtual Machine in Azure.
 
->**Note:** If you would like to trigger continuous deployments using the hosted VSTS agent instead of a local agent, see [this lab](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Continuous-Deployment).  
+>**Note:** If you would like to trigger continuous deployments using the hosted VSTS agent instead of a local agent, see [this lab](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module4Labs/HOL_Continuous-Deployment).  
 
 
 ###Pre-requisites###
@@ -33,11 +33,11 @@ In this lab, you will work with one machine which will serve as both the deploym
     ![](<media/create_agent_pool.png>) 
 
 3. Instead of manually creating the VM in Azure, we are going to use an Azure Resource Management (ARM) template. Simply click the **Deploy to Azure** button below and follow the wizard to deploy the machine. You will need to log in to the Azure Portal.
-                                                                    
-    <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FedX-DEV217x-DevOps%2Fmaster%2Fdocs%2FHOL_Continuous-Deployment-Using-Custom-Agent%2Fenv%2FContinuousDeploymentCustomAgentPartsUnlimitedMRP.json" target="_blank">
+                                         
+    <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FedX-DEV217x-DevOps%2Fmaster%2Fdocs%2F%2FModule4Labs%2FHOL_Continuous-Deployment-Using-Custom-Agent%2Fenv%2FContinuousDeploymentCustomAgentPartsUnlimitedMRP.json" target="_blank">
         <img src="http://azuredeploy.net/deploybutton.png"/>
     </a>
-    <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FedX-DEV217x-DevOps%2Fmaster%2Fdocs%2FHOL_Continuous-Deployment-Using-Custom-Agent%2Fenv%2FContinuousDeploymentCustomAgentPartsUnlimitedMRP.json" target="_blank">
+    <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FedX-DEV217x-DevOps%2Fmaster%2Fdocs%2FModule4Labs%2FHOL_Continuous-Deployment-Using-Custom-Agent%2Fenv%2FContinuousDeploymentCustomAgentPartsUnlimitedMRP.json" target="_blank">
         <img src="http://armviz.io/visualizebutton.png"/>
     </a>
 
@@ -112,10 +112,10 @@ Next steps
 
 In this lab, you learned how to create deployments automatically after committing changes to code and build automatically. Try these labs out for next steps:
 
--   [Parts Unlimited MRP Continuous Deployment - Hosted](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Continuous-Deployment)
+-   [Parts Unlimited MRP Continuous Deployment - Hosted](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module4Labs/HOL_Continuous-Deployment)
 
--   [Deploying Parts Unlimited MRP with Chef to Azure]
+-   [Deploying Parts Unlimited MRP with Chef to Azure](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module2Labs/HOL_Deploying-Using-Chef)
 
--   [Parts Unlimited MRP Application Performance Monitoring](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Application-Performance-Monitoring)
+-   [Parts Unlimited MRP Application Performance Monitoring](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module5Labs/HOL_Application-Performance-Monitoring)
 
--	[Parts Unlimited MRP Auto-Scaling and Load Testing](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/HOL_Autoscaling-Load-Testing)
+-	[Parts Unlimited MRP Auto-Scaling and Load Testing](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module5Labs/HOL_Autoscaling-Load-Testing)

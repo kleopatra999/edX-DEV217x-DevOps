@@ -81,10 +81,10 @@ Next steps
 
 In this lab, you learned how to set up the PartsUnlimitedMRP team project in Visual Studio Team Services. Try these labs out for next steps:
 
--   [Parts Unlimited MRP Continuous Integration](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Continuous-Integration)
+-   [Parts Unlimited MRP Continuous Integration](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module4Labs/HOL_Continuous-Integration)
 
--   [Parts Unlimited MRP Continuous Deployment](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Continuous-Deployment)
+-   [Parts Unlimited MRP Continuous Deployment](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module4Labs/HOL_Continuous-Deployment)
 
--   [Parts Unlimited MRP Application Performance Monitoring](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Application-Performance-Monitoring)
+-   [Parts Unlimited MRP Application Performance Monitoring](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module5Labs/HOL_Application-Performance-Monitoring)
 
--	[Parts Unlimited MRP Auto-Scaling and Load Testing](https://github.com/Microsoft/PartsUnlimitedMRP/tree/master/docs/HOL_Autoscaling-Load-Testing)
+-	[Deploying PartsUnlimitedMRP using Chef](https://github.com/MicrosoftLearning/edX-DEV217x-DevOps/tree/master/docs/Module2Labs/HOL_Deploying-Using-Chef)

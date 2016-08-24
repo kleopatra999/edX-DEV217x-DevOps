@@ -280,7 +280,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/MicrosoftLearning/edX-DEV217x-DevOps/master/docs/HOL_Continuous-Deployment-Using-Custom-Agent/env/install_vsts_agent_and_mrp_dependencies.sh"
+            "https://raw.githubusercontent.com/MicrosoftLearning/edX-DEV217x-DevOps/master/docs/Module4Labs/HOL_Continuous-Deployment-Using-Custom-Agent/env/install_vsts_agent_and_mrp_dependencies.sh"
           ]
         },
         "protectedSettings": {
